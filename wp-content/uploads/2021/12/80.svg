@@ -1,0 +1,22 @@
+<svg id="_80" data-name="80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240.139" height="239.98" viewBox="0 0 240.139 239.98">
+  <defs>
+    <linearGradient id="linear-gradient" y1="-0.012" x2="1" y2="-0.012" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a876e6"/>
+      <stop offset="1" stop-color="#a876e6"/>
+      <stop offset="1" stop-color="#11438b"/>
+    </linearGradient>
+  </defs>
+  <g id="Folder_3" data-name="Folder 3">
+    <path id="_Path_" data-name="&lt;Path&gt;" d="M.63,120.208A119.931,119.931,0,1,1,120.558,240.137,119.931,119.931,0,0,1,.63,120.208Z" transform="translate(-0.353 -0.157)" fill="#c3c3c3"/>
+    <g id="_Group_" data-name="&lt;Group&gt;">
+      <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Folder_2" data-name="Folder 2" transform="translate(0.516 0.165)">
+    <path id="_Path_2" data-name="&lt;Path&gt;" d="M120.861,120.262l119.933-.119a120.044,120.044,0,0,1-35.148,84.9c-46.531,46.531-123.094,46.549-169.6.04s-46.492-123.072.04-169.6A120.177,120.177,0,0,1,169.727,10.717Z" transform="translate(-1.171 -0.375)" fill="#fff"/>
+    <path id="_Path_3" data-name="&lt;Path&gt;" d="M179,252.6a73.943,73.943,0,1,1,73.943-73.943A74.028,74.028,0,0,1,179,252.6Z" transform="translate(-59.313 -58.767)" fill="url(#linear-gradient)"/>
+    <g id="_Group_2" data-name="&lt;Group&gt;" transform="translate(75.283 91.835)">
+      <text id="_80_" data-name="80% " transform="translate(0 44)" fill="#fff" font-size="44" font-family="Quicksand" font-weight="700"><tspan x="0" y="0">80%</tspan></text>
+    </g>
+  </g>
+</svg>

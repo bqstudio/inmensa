@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="226px" height="226px" viewBox="0 0 226 226" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>clock copy</title>
+    <defs>
+        <filter x="-14.9%" y="-29.6%" width="129.9%" height="159.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="20" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Fortship" transform="translate(-648.000000, -2396.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-3" filter="url(#filter-1)" transform="translate(573.000000, 2478.000000)">
+                <g id="clock-copy" transform="translate(174.167754, 17.232411)">
+                    <path d="M18.4318872,15.8038702 L14.8321358,12.8584302 L14.8321358,6.85851272 C14.8321358,6.25523115 14.3851609,5.76758863 13.8321909,5.76758863 C13.2792208,5.76758863 12.8322459,6.25523115 12.8322459,6.85851272 L12.8322459,13.4039473 C12.8322459,13.7475636 12.9802459,14.071595 13.2322239,14.2766865 L17.2319028,17.5494038 C17.4118727,17.6966758 17.6218965,17.7675886 17.8308613,17.7675886 C18.1358369,17.7675886 18.4358204,17.6181161 18.6318257,17.3301187 C18.9638801,16.8489678 18.8738699,16.164981 18.4318872,15.8038702 Z" id="Path"></path>
+                    <path d="M13.8322459,-0.232411373 C6.11217563,-0.232411373 -0.167754056,6.04751831 -0.167754056,13.7675886 C-0.167754056,21.4876589 6.11217563,27.7675886 13.8322459,27.7675886 C21.5523163,27.7675886 27.8322459,21.4876589 27.8322459,13.7675886 C27.8322459,6.04751831 21.5523163,-0.232411373 13.8322459,-0.232411373 Z M13.8322459,25.5987371 C7.30939438,25.5987371 2.00109751,20.2904402 2.00109751,13.7675886 C2.00109751,7.24473706 7.30939438,1.93644019 13.8322459,1.93644019 C20.3561913,1.93644019 25.6633944,7.24473706 25.6633944,13.7675886 C25.6633944,20.2904402 20.3550975,25.5987371 13.8322459,25.5987371 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

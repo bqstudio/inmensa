@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1631px" height="2175px" viewBox="0 0 1631 2175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path 7 Copy 2</title>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#502782" offset="0%"></stop>
+            <stop stop-color="#2E2F85" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1630.25562,2174.78992 L0.255615234,2174.78992 L0.255615234,61.1338604 C126.909255,101.087166 246.656883,101.087166 359.4985,61.1338604 C361.722482,60.3464253 363.695779,59.5207862 366.357117,58.7431633 C624.256157,-16.613001 710.306934,-16.613001 978.324162,44.1524918 C1252.95532,106.41751 1531.12414,91.4379231 1630.25562,61.1338604 L1630.25562,2174.78992 Z" id="Path-7-Copy-2" fill="url(#linearGradient-1)"></path>
+    </g>
+</svg>

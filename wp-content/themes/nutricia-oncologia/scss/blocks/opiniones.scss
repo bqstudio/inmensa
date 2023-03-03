@@ -1,0 +1,128 @@
+.opiniones {
+    padding: 20px 0 120px;
+    background: #f9f6f5;
+
+    &__content {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    &__title {
+        color: $primary-color;
+        width: 664px;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__cont {
+        &__image {
+            position: relative;
+        }
+        .slick-slide {
+            width: 574px;
+
+            @include responsive('mobile-h') {
+                width: 374px;
+            }
+        }
+
+        .slick-arrow {
+            position: absolute;
+            bottom: -80px;
+            right: 50%;
+            width: 60px;
+            background-image: url('images/arrow-violet.svg');
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-color: transparent;
+            text-indent: 1000px;
+        }
+
+        .slick-prev {
+            transform: rotate(180deg) scale(2);
+            margin-right: 20px;
+        }
+
+        .slick-next {
+            transform: translate(130px,6px) scale(2);
+            bottom: -74px;
+        }
+        
+        &__item {
+            margin: 0 20px;
+            position: relative;
+            cursor: pointer;
+
+            &__image {
+                &--not-log {
+                    &::before {
+                        content: '';
+                        background: $primary-color;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        opacity: 0.5;
+                    }
+                }
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        &__info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+        }
+
+        &__porcion, &__tiempo, &__dificultad {
+            color: $white;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+        &__title {
+            color: $three-color;
+            font-size: 25px;    
+            font-weight: 700;
+            margin-top: 25px;
+            margin-left: 20px;
+
+            @include responsive('mobile-h') {
+                margin-top: 15px;
+                font-size: 18px;
+            }
+        }
+
+        
+    }
+}
+.play-cont {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+
+    .member {
+        margin: 0 auto;
+        width: 300px;
+
+        .private {
+            font-size: 16px;
+            color: $white;
+        }
+    }
+
+    video {
+        display: none;
+    }
+}

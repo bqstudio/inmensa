@@ -1,0 +1,150 @@
+.recursos {
+    background-image: url('images/wave.svg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #f9f6f5;
+    padding: 80px 0 120px;
+    margin: 0 0 0;
+    margin-bottom: 5px;
+
+    + .recursos {
+        border-top:10px solid white;
+        background-position: center -210px;
+        margin-top: -120px;
+
+        .recursos__cont .show-all {
+            display: none;
+        }
+
+        @include responsive('mobile-v') {
+            background-size: auto;
+        }
+    }
+
+    @include responsive('mobile-c') {
+        padding: 40px 0 20px;
+        margin-top: -20px;
+    }
+
+    &__content {
+        text-align: center;
+    }
+
+    &__image {
+        img {
+            width: 80px;
+        }
+    }
+
+    &__title {
+        color: $white;
+    }
+
+    &__cont {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 70px 40px;
+        padding: 100px 0;
+        
+        @include responsive('desktop-h') {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include responsive('mobile-v') {
+            grid-template-columns: repeat(1, 1fr);
+            margin-bottom: 100px;
+        }
+
+        &__item {
+            background-color: $white;
+            border-radius: 20px;
+            padding: 60px 30px 30px;
+            position: relative;
+
+            @include responsive('mobile-v') {
+                padding: 40px 20px 20px;
+            }
+
+            span {
+                background-image: url('images/arrow-violet.svg');
+                background-size: 100%;
+                background-position: right center;
+                background-repeat: no-repeat;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                width: 50px;
+                height: 15px;
+            }
+
+            &__image {
+                background-color: $secondary-color;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                position: absolute;
+                top: -33px;
+                left: 20px;
+                display: none;
+
+                img {
+                    width: 38px;
+                    height: 43px;
+                    position: absolute;
+                    left: 15px;
+                    top: 10px;
+                    
+                }
+            }
+
+            &.show-in-desktop {
+                @include responsive('mobile-v') {
+                    display: none;
+                }
+            }
+
+            &.show-in-mobile {
+                display: block !important;
+            }
+            
+        }
+        
+        &__upper {
+            font-size: 14px;
+            line-height: 28px;
+            color: #8C8C8C;
+        }
+
+        &__title {
+            font-size: 25px;
+            font-weight: 700;
+            color: $secondary-color;
+        }
+
+        &__text {
+            margin-top: 10px;
+
+            p {
+                font-size: 18px;
+                line-height: 28px;
+                margin-bottom: 0;
+            }
+        }
+
+        .opiniones__cont__item__image--not-log {
+            &::before {
+               // opacity: 0.8;
+            }
+        }
+
+        .show-all {
+            display: none; 
+            text-align: center;
+
+            @include responsive('mobile-v') {
+                display: block;
+            }
+        }
+    }
+}

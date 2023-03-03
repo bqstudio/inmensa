@@ -1,0 +1,159 @@
+0000.000 (0) Opened log file at time: Thu, 16 Feb 2023 07:31:22 +0000 on https://nutriciononcologica.com.ar
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux cp24-ga.privatesystems.net 4.18.0-372.26.1.lve.1.el8.x86_64 #1 SMP Fri Sep 16 14:08:19 EDT 2022 x86_64) MySQL: 10.5.18-MariaDB-cll-lve (max packet size=268435456) WPLANG: es_ES Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 19.4M | 22M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.017 (0) Free space on disk containing Updraft's temporary directory: 535536.9 MB
+0000.019 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.020 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.027 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1676492208, seconds_ago=40475)
+0000.029 (0) Set semaphore last lock (f) time to 2023-02-16 07:31:23
+0000.030 (0) Semaphore lock (f) complete
+0000.034 (0) Backup run: resumption=0, nonce=82b3204487b0, file_nonce=82b3204487b0 begun at=1676532682 (1s ago), job type=backup
+0000.035 (0) Scheduling a resumption (1) after 352 seconds (1676533035) in case this run gets aborted
+0000.051 (0) Checking if we have a zip executable available
+0000.052 (0) Testing: /usr/bin/zip
+0000.055 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.055 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.056 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.057 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.059 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.064 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.065 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.074 (0) Working binary zip found: /usr/bin/zip
+0000.076 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.077 (0) Creation of backups of directories: beginning
+0000.078 (0) No backup of plugins: excluded by user's options
+0000.080 (0) Beginning creation of dump of themes (split every: 400 MB)
+0000.101 (0) Total entities for the zip file: 46 directories, 358 files (0 skipped as non-modified), 11.3 MB
+0000.103 (0) Zip: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.104 (0) Zip: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.106 (0) Zip: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.401 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip.tmp: size is now: 9.30 MB
+0001.405 (0) Creating zip file manifest (backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip.list-temp.tmp)
+0001.407 (0) Successfully created zip file manifest (size: 24133)
+0001.488 (0) Created themes zip (0) - 9573.7 KB in 1.4 s (6877 KB/s) (sha1: 83513e6df10fc636e4b424099f0963ec4c9005a3, sha256: 2e38759344997518e086401530bb445699d847fc8f02199ef3d673de9e78c291)
+0001.490 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0001.491 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-45d2016e6943631b2f9194bb1d8dc2c3)
+0003.604 (0) Google Drive: quota usage: used=51111.7 MB, total=236544 MB, available=185432.3 MB
+0003.606 (0) Google Drive: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip: Attempting to upload to Google Drive (into folder id: 1ObEB0ZK545kwg3bvUP99pFq52YmW4M72)
+0004.279 (0) Googledrive chunked upload: 10.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.6 / 22)
+0004.682 (0) Googledrive chunked upload: 32.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.6 / 22)
+0005.151 (0) Googledrive chunked upload: 74.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.6 / 22)
+0007.429 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0007.433 (0) Google Drive: OK: Archive backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip uploaded in 3.82 seconds
+0007.434 (0) Recording as successfully uploaded: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip
+0007.437 (0) Deleting local file: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip: OK
+0007.441 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0007.442 (0) Looking for candidates to backup in: /home/oncologia/public_html/wp-content/uploads
+0007.444 (0) finding files: 2021: adding to list (1)
+0007.445 (0) finding files: complianz: adding to list (2)
+0007.447 (0) finding files: 2022: adding to list (3)
+0007.448 (0) finding files: ithemes-security: adding to list (4)
+0007.449 (0) finding files: gravity_forms: adding to list (5)
+0007.450 (0) finding files: 2023: adding to list (6)
+0007.451 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0007.479 (0) Total entities for the zip file: 32 directories, 541 files (0 skipped as non-modified), 654.5 MB
+0007.480 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (35.1 MB, 541 files batched, 20 (20) added so far); re-opening (prior size: 0 KB)
+0013.510 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip.tmp: size is now: 35.10 MB
+0013.512 (0) A useful amount of data was added after this amount of zip processing: 6.5 s (normalised: 4.6 s, rate: 5542.2 KB/s)
+0013.514 (0) Performance is good - will increase the amount of data we attempt to batch (time=6.487498998642, normalised_time=4.6190851766075, max_time=13.513021945953, data points known=1, old_max_bytes=26214400, new_max_bytes=46013755)
+0013.516 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.9 MB added on this batch (113.8 MB, 541 files batched, 39 (59) added so far); re-opening (prior size: 35957.3 KB)
+0039.747 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip.tmp: size is now: 148.80 MB
+0039.750 (0) A useful amount of data was added after this amount of zip processing: 26.7 s (normalised: 10.3 s, rate: 4358.6 KB/s)
+0039.752 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.9 MB added on this batch (87.6 MB, 541 files batched, 1 (60) added so far); re-opening (prior size: 152390.1 KB)
+0072.093 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip.tmp: size is now: 236.40 MB
+0072.096 (0) A useful amount of data was added after this amount of zip processing: 33.1 s (normalised: 16.6 s, rate: 2712.2 KB/s)
+0072.098 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.9 MB added on this batch (61.8 MB, 541 files batched, 3 (63) added so far); re-opening (prior size: 242086.5 KB)
+0108.061 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip.tmp: size is now: 298.20 MB
+0108.063 (0) A useful amount of data was added after this amount of zip processing: 36 s (normalised: 25.6 s, rate: 1756.5 KB/s)
+0108.065 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.9 MB added on this batch (57.2 MB, 541 files batched, 3 (66) added so far); re-opening (prior size: 305388.2 KB)
+0149.274 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip.tmp: size is now: 355.50 MB
+0149.277 (0) A useful amount of data was added after this amount of zip processing: 41.3 s (normalised: 31.6 s, rate: 1420.4 KB/s)
+0149.280 (0) Zip: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip.tmp: 100 files added (on-disk size: 363981.5 KB)
+0149.281 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.9 MB added on this batch (54.2 MB, 541 files batched, 84 (150) added so far); re-opening (prior size: 363981.5 KB)
+0195.586 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip.tmp: size is now: 409.30 MB
+0195.589 (0) A useful amount of data was added after this amount of zip processing: 46.6 s (normalised: 37.7 s, rate: 1192.7 KB/s)
+0195.590 (0) Zip size is at/near split limit (409.3 MB / 400 MB) - bumping index (from: 0)
+0198.949 (0) Creating zip file manifest (backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip.list-temp.tmp)
+0198.951 (0) Successfully created zip file manifest (size: 10685)
+0198.953 (0) Created uploads zip (0) - 419124.6 KB in 188.1 s (2227.9 KB/s) (checksums: sha1: de2d4fff0062b4a2cc195642563dea46ef673013, sha256: 233f588137317aece60b08d67cc53ce3c6e451035968cb3b189c7352e3670af6)
+0198.958 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0198.959 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-45d2016e6943631b2f9194bb1d8dc2c3)
+0199.208 (0) Google Drive: quota usage: used=51121.1 MB, total=236544 MB, available=185422.9 MB
+0199.209 (0) Google Drive: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip: Attempting to upload to Google Drive (into folder id: 1ObEB0ZK545kwg3bvUP99pFq52YmW4M72)
+0199.750 (0) Googledrive chunked upload: 0.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.8 / 24)
+0200.019 (0) Googledrive chunked upload: 0.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.8 / 24)
+0200.406 (0) Googledrive chunked upload: 1.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.8 / 24)
+0201.006 (0) Googledrive chunked upload: 3.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.8 / 24)
+0201.780 (0) Googledrive chunked upload: 7.6 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 20.8 / 24)
+0203.240 (0) Googledrive chunked upload: 15.4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 20.8 / 24)
+0204.958 (0) Googledrive chunked upload: 31 % uploaded (133169152)
+0206.716 (0) Googledrive chunked upload: 46.7 % uploaded (200278016)
+0208.889 (0) Googledrive chunked upload: 62.3 % uploaded (267386880)
+0211.775 (0) Googledrive chunked upload: 77.9 % uploaded (334495744)
+0214.101 (0) Googledrive chunked upload: 93.6 % uploaded (401604608)
+0217.084 (0) Googledrive chunked upload: 100 % uploaded (401604608)
+0217.087 (0) Google Drive: OK: Archive backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip uploaded in 17.88 seconds
+0217.088 (0) Recording as successfully uploaded: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip
+0217.124 (0) Deleting local file: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip: OK
+0217.128 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (18 MB, 1 (151) files added so far); re-opening (prior size: 0 KB)
+0219.729 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip.tmp: size is now: 18.00 MB
+0219.745 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.9 MB added on this batch (85.3 MB, 541 files batched, 8 (159) added so far); re-opening (prior size: 18439 KB)
+0238.584 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip.tmp: size is now: 103.30 MB
+0238.587 (0) A useful amount of data was added after this amount of zip processing: 19.6 s (normalised: 10.1 s, rate: 4466.6 KB/s)
+0238.590 (0) Zip: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip.tmp: 200 files added (on-disk size: 105810.6 KB)
+0238.592 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.9 MB added on this batch (44.2 MB, 541 files batched, 109 (268) added so far); re-opening (prior size: 105810.6 KB)
+0257.670 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip.tmp: size is now: 146.60 MB
+0257.672 (0) A useful amount of data was added after this amount of zip processing: 19.6 s (normalised: 19.5 s, rate: 2302.5 KB/s)
+0257.674 (0) Performance is good - will increase the amount of data we attempt to batch (time=19.647464036942, normalised_time=19.516126684516, max_time=257.67307400703, data points known=1, old_max_bytes=46013755, new_max_bytes=209715200)
+0257.677 (0) Zip: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip.tmp: 300 files added (on-disk size: 150142.7 KB)
+0257.680 (0) Zip: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip.tmp: 400 files added (on-disk size: 150142.7 KB)
+0257.682 (0) Zip: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip.tmp: 500 files added (on-disk size: 150142.7 KB)
+0291.321 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip.tmp: size is now: 239.00 MB
+0291.325 (0) Creating zip file manifest (backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip.list-temp.tmp)
+0291.327 (0) Successfully created zip file manifest (size: 27489)
+0293.192 (0) Created uploads zip (1) - 244698.6 KB in 94.2 s (2596.6 KB/s) (sha1: c5186c25c25af046a297b2891c9d7f0eb0e98e26, sha256: 228ab0089db54103ab8d7615cba27b323e6ba4ce1d2b80fabc59a64a8f2bfd12)
+0293.196 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0293.197 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-45d2016e6943631b2f9194bb1d8dc2c3)
+0293.435 (0) Google Drive: quota usage: used=51530.4 MB, total=236544 MB, available=185013.6 MB
+0293.436 (0) Google Drive: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1ObEB0ZK545kwg3bvUP99pFq52YmW4M72)
+0293.971 (0) Googledrive chunked upload: 0.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.6 / 24)
+0294.274 (0) Googledrive chunked upload: 1.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.6 / 24)
+0294.596 (0) Googledrive chunked upload: 2.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.6 / 24)
+0295.042 (0) Googledrive chunked upload: 6.3 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.6 / 24)
+0295.625 (0) Googledrive chunked upload: 13 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 20.6 / 24)
+0296.769 (0) Googledrive chunked upload: 26.4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 20.6 / 24)
+0299.433 (0) Googledrive chunked upload: 53.1 % uploaded (133169152)
+0301.306 (0) Googledrive chunked upload: 79.9 % uploaded (200278016)
+0303.916 (0) Googledrive chunked upload: 100 % uploaded (200278016)
+0303.919 (0) Google Drive: OK: Archive backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip uploaded in 10.48 seconds
+0303.920 (0) Recording as successfully uploaded: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip
+0303.948 (0) Deleting local file: backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip: OK
+0303.951 (0) No backup of others: excluded by user's options
+0303.955 (0) Saving backup status to database (elements: 5)
+0303.958 (0) No database backup (wp) - not part of this run
+0303.960 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-themes.zip: themes: This file has already been successfully uploaded
+0303.961 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads.zip: uploads: This file has already been successfully uploaded
+0303.961 (0) backup_2023-02-16-0431_Nutricia_para_Pacientes_Oncolg_82b3204487b0-uploads2.zip: uploads: This file has already been successfully uploaded
+0303.962 (0) Saving backup history. Total backup size: 657.6 MB
+0303.964 (0) Resume backup (82b3204487b0, 0): finish run
+0303.966 (0) There were no more files that needed uploading
+0303.968 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=50
+0303.969 (0) Number of backup sets in history: 3; groups (db): 1
+0303.970 (0) Examining (for databases) backup set with group_id=0, nonce=82b3204487b0, datestamp=1676532682 (Feb 16 2023 07:31:22)
+0303.971 (0) Examining (for databases) backup set with group_id=0, nonce=48ff5e01cc26, datestamp=1676492208 (Feb 15 2023 20:16:48)
+0303.971 (0) Examining (for databases) backup set with group_id=0, nonce=c8acf4c77356, datestamp=1676492168 (Feb 15 2023 20:16:08)
+0303.971 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.971 (0) Number of backup sets in history: 3; groups (files): 1
+0303.972 (0) Examining (for files) backup set with nonce=82b3204487b0, datestamp=1676532682 (Feb 16 2023 07:31:22)
+0303.972 (0) This backup set is the backup set just made, so will not be deleted.
+0303.973 (0) This backup set is the backup set just made, so will not be deleted.
+0303.973 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0303.974 (0) Examining (for files) backup set with nonce=48ff5e01cc26, datestamp=1676492208 (Feb 15 2023 20:16:48)
+0303.974 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0303.974 (0) Examining (for files) backup set with nonce=c8acf4c77356, datestamp=1676492168 (Feb 15 2023 20:16:08)
+0303.974 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.975 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0303.977 (0) Decremented the semaphore (f) by 1
+0303.979 (0) Semaphore (f) unlocked
+0303.979 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0303.983 (0) No email will/can be sent - the user has not configured an email address.
+0303.984 (0) The backup apparently succeeded and is now complete

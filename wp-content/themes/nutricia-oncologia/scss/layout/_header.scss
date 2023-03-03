@@ -1,0 +1,367 @@
+header {
+	padding: 20px 0;
+	top: 0;
+	left: 0;
+	z-index: 10;
+    width: 100%;
+	position: fixed;
+	box-shadow: 0px 1px 8px -1px grey;
+	background-color: $white;
+
+    .header__cont {
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+		.logo {
+			display: block;
+			width: 300px;
+			margin-top: -5px;
+
+			@include responsive('container') {
+				width: 254px;
+			}
+
+			@include responsive('mobile-c') {
+				margin-top: 0;
+			}
+		}
+    }
+
+
+	.site-nav {
+		float: right;
+		width: 100%;
+
+		.dropdown-select {
+			float: right;
+			font-size: 14px;
+			font-weight: 600;
+			line-height: 1.57;
+			cursor: pointer;
+			text-transform: uppercase;
+
+			&::after {
+				content: '';
+				width: 10px;
+			  height: 8px;
+				display: inline-block;
+				background-image: url(images/arrow-header.svg);
+				background-size: contain;
+				background-repeat: no-repeat;
+				margin-left: 5px;
+				vertical-align: middle;
+				transition: all .3s ease;
+			}
+		}
+	}
+
+	.main-nav {
+	  float: right;
+	  width: 100%;
+	  display: flex;
+	  margin-top:10px;
+	  justify-content: space-around;
+
+		@include responsive('desktop-h') {
+			margin: 0 !important;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100vh;
+			padding: 36px;
+			background: $primary-color;
+			z-index: 10;
+			display: none;
+			transition: none;
+			overflow-y: scroll;
+		}
+
+	  .nav-menu {
+	    @include section();
+        margin-top: 10px;
+
+        @include responsive('desktop-h') {
+			width: 100%;
+			text-align: left;
+			margin-top: 40px;
+			padding-top: 50px;
+			margin-left: 40px;
+        }
+
+	    li {
+	      display: inline-block;
+		  margin:0;
+	      margin-left: 90px;
+		  position: relative;
+
+			@include responsive('full-desktop') {
+				margin-left: 40px;
+			}
+
+			@include responsive('desktop-h') {
+				width: 100%;
+				margin-left:0;
+			}
+
+            a {
+				color: #293896;
+				font-size: 21px;
+				font-weight: 700;
+				line-height: 30px;
+
+				&:hover {
+					opacity: 0.8;
+				}
+
+				@include responsive('desktop-h') {
+					color: $white;
+					line-height: 50px;
+				}
+	      	}
+	    }
+	  }
+
+	  .header-login {
+		margin-top: 10px;
+
+		@include responsive('desktop-h') {
+			display: block;
+			margin: 0 auto;
+			margin-left: 40px;
+			text-align: left;
+		}
+		
+		a {
+			display: inline-block;
+			font-size: 21px;
+			margin-right: 28px;
+			line-height: 30px;
+			border-radius: 10px;
+			background: #A876E6 0% 0% no-repeat padding-box;
+			box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+			opacity: 1;
+			padding: 0 20px;
+			color:white;
+			transition: all .3s ease;
+
+			&:hover {
+				box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+				border: 1px solid #4C2F92;
+				color:white;
+				opacity: 1
+			}
+
+			@include responsive('full-desktop') {
+				font-size: 18px;
+			}
+			
+
+			@include responsive('container') {
+				margin-right: 10px;
+				font-size: 21px;
+			}
+
+			@include responsive('desktop-h') {
+				margin-top: 20px;
+				width: 182px;
+				text-align: center;
+				line-height: 40px;
+			}
+
+			&.register {
+				color:#4C2F92;
+				background-color: transparent;
+				box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+				border: 1px solid #4C2F92;
+
+				@include responsive('desktop-h') {
+					color: $white;
+					border: 1px solid $white;
+				}
+	
+				&:hover {
+					background: #4C2F92 0% 0% no-repeat padding-box;
+					box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+					color: $white;
+				}
+		  	}
+		}
+	  } 
+		.mobile_disclaimer {
+			display: none;
+		
+			@include responsive('desktop-h') {
+				display: block;
+				position: absolute;
+				bottom: 100px;
+				left: 50%;
+				transform: translate(-50%, 50%);
+				display: block;
+				width: 306px;
+				max-width: 100%;
+				margin: 0 auto;
+				text-align: center;
+				font-size: 15px;
+				line-height: 16px;
+				letter-spacing: 0.75px;
+				color: #BBBABE;
+			}
+		}
+	}
+}
+
+.responsiveBtn {
+	float: right;
+	position: relative;
+	z-index: 11;
+	width: 40px;
+	height: 26px;
+	transform: rotate(0deg);
+	transition: .5s ease-in-out;
+	cursor: pointer;
+	outline: 0;
+	filter: invert(1);
+	display: none;
+	top: 3px;
+
+	@include responsive('desktop-h') {
+		display: block;
+	}
+
+	span {
+		display: inline-block;
+		background: #cbd753;
+		width: 100%;
+		height: 3px;
+		transition: all 0.5s ease;
+		border-radius: 2px;
+		position: absolute;
+		left:0;
+
+		&:nth-child(1) {
+			top: 0px;
+		}
+
+		&:nth-child(2),
+		&:nth-child(3) {
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		&:nth-child(4) {
+			top: 24px;
+		}
+	}
+
+	&.open {
+
+	span {
+		&:nth-child(1) {
+			opacity: 0;
+		}
+
+		&:nth-child(2) {
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			transform: rotate(45deg);
+			background: $black;
+		}
+
+		&:nth-child(3) {
+			-webkit-transform: rotate(-45deg);
+			-moz-transform: rotate(-45deg);
+			-o-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			background: $black;
+		}
+
+		&:nth-child(4) {
+			top: 9px;
+			width: 0%;
+			left: 50%;
+		}
+	}
+	}
+}
+
+
+.top-nav {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+	@include responsive('desktop-h') {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		margin: 0;
+		background: #EDECEC;
+		width: 100%;
+		text-align: center;
+		padding: 5px 0;
+		z-index: 15;
+		display: block;
+	}
+
+	&--title {
+		color: #BBBABE;
+		width: 100%;
+    	margin-right: 20px;
+		font-size: 15px;
+		letter-spacing: 0.75px;
+		grid-column: span 2;
+		text-align: center;
+
+		@include responsive('desktop-h') {
+			display: none;
+		}
+
+	}
+  a {
+    font-size: 14px;
+	color: $primary-color;
+	position: relative;
+	white-space: nowrap;
+	margin-left: 3px;
+
+    &:hover {
+      color: $black;
+    }
+
+	span {
+		background-image: url('images/loupe.svg');
+		background-repeat: no-repeat;
+		background-size: 100%;
+		width: 18px;
+		height: 18px;
+		position: absolute;
+		top: 0;
+		right: -25px;
+	}
+  }
+}
+
+/* .site-content {
+	section:not(.hero_image) {
+		&:nth-child(1) {
+			margin-top: 120px;
+
+			@include responsive('tablet-v') {
+				margin-top: 130px;
+			}
+			@include responsive('mobile-h') {
+				margin-top: 70px;
+				margin-bottom: -3px;
+			}
+		}
+	}	
+} */		
+
+.scrolled .header {
+	
+}

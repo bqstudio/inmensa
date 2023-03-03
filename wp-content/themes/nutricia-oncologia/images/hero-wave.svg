@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1770px" height="197px" viewBox="0 0 1770 197" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 5</title>
+    <defs>
+        <path d="M0,12.15271 C86.6144078,77.3100179 199.829538,109.888672 339.64539,109.888672 C549.369168,109.888672 630.090474,0 1001.39509,0 C1248.93149,0 1504.46646,60.0750529 1768,180.225159 L0,180.225159 L0,12.15271 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(0.957031, 0.690857)">
+            <g id="Hero-Copy" transform="translate(0.000000, 15.633240)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Path-2" fill="#f9f6f5" xlink:href="#path-1"></use>
+                <rect id="Rectangle" stroke="#979797" fill="#f9f6f5" mask="url(#mask-2)" x="-25.5" y="-88.5" width="1826" height="308"></rect>
+            </g>
+            <path d="M0,124.972229 L85.0828094,140.803552 C216.241454,160.087759 328.475872,160.087759 421.786066,140.803552 C561.751355,111.877241 909.526542,5.68434189e-14 1149.25866,5.68434189e-14 C1309.08007,5.68434189e-14 1487.73604,34.9868978 1685.22656,104.960693 L1768,133.836365" id="Path-3-Copy" stroke="#51308F"></path>
+        </g>
+    </g>
+</svg>

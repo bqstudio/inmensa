@@ -1,0 +1,123 @@
+.page--text {
+    .gform_wrapper, .account-page-form {
+        margin-bottom:2em;
+    
+        legend {
+            display: none;
+        }
+        .gfield, p.no-margin {
+            margin-bottom:1em;
+            list-style: none;
+            label:not(.gfield_consent_label) {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: inline-block;
+            padding: 0;
+            }
+            input[type="text"],input[type="password"],select,textarea {
+                border:1px solid $secondary-color;
+                height: 50px;
+                line-height: 50px;
+                width: 100%;
+                padding: 0 10px
+            }
+            textarea {
+                height: 160px;
+                line-height: 1.4;
+            }
+            
+        }
+    
+       
+    
+        .gform_footer {
+            input[type="submit"],
+            input[type="button"],
+            button,
+            .button {
+                display: inline-block;
+                height: 40px;
+                line-height: 40px;
+                border-radius: 20px;
+                background: #4B2077;
+                color: #ffffff;
+                text-transform: uppercase;
+                padding: 0 20px;
+                text-align: center;
+                cursor: pointer;
+                font-size: 18px;
+                border: 2px solid #ffffff;
+
+               
+            }
+
+            .button {
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+                @include responsive('mobile-h') {
+                    padding: 15px;
+                    font-size: 16px;
+                    text-transform: none;
+                    line-height: normal;
+                    height: auto;
+                }
+            }
+        }
+    }
+    
+    .gf_login_links {
+        display: none;
+    }
+}
+
+.gform_legacy_markup_wrapper div.validation_error {
+    color: $primary-color !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    margin: 0;
+    padding: 0 !important;
+}
+
+.gform_validation_errors {
+border: none !important;
+}  
+
+.gform_legacy_markup_wrapper li.gfield.gfield_error {
+    background-color: transparent !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.site-box .gform_legacy_markup_wrapper .gfield_description {
+    display: none;
+}
+
+.disblock {
+    border: 1px solid #A876E6;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.gchoice {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+input[type="password"].som-password-input {
+    max-width: 100% !important; 
+}
+
+.page-template-template-registracion  {
+    .site-footer {
+        .newsletter {
+            display: none;
+        }
+    }
+}

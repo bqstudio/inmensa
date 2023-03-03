@@ -1,0 +1,44 @@
+.page--text {
+    .site-title {
+        margin-bottom: 20px;
+    }
+    p {
+        margin-bottom:1em;
+
+        .button {
+            display: inline-block;
+            border-radius: 20px;
+            background: #4B2077;
+            color: #ffffff;
+            text-transform: uppercase;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 18px;
+            border: 2px solid #ffffff;
+
+            @include responsive('mobile-h') {
+                padding: 15px;
+                font-size: 16px;
+                text-transform: none;
+            }
+        }
+
+
+            .button {
+                &:nth-child(1) {
+                    color: #4B2077;
+                    border: none;
+                    background: transparent;
+                    text-decoration: underline;
+            }
+        }
+    }
+}
+
+.page--text {
+    .container {
+        width: 800px;
+        max-width: 100%;
+    }
+}

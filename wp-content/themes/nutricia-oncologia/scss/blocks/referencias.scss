@@ -1,0 +1,45 @@
+.referencias {
+    background-image: url('images/wave.svg');
+    background-size: 100%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+    margin-top: 1px;
+    margin-bottom: 5px;
+
+    @include responsive('mobile-h') {
+        padding: 40px 0;
+    }
+
+    @include responsive('mobile-v') {
+        background-size: 200%;
+        background-position: top center;
+    }
+
+    &__title {
+        color: $white;
+        margin-bottom: 5px;
+    }
+
+    &__cont {
+        margin-left: 15px;
+    }
+    &__text {
+        list-style: decimal;
+        color: $white;
+        font-size: 14px;
+        margin-bottom: 0;
+
+        @include responsive('mobile-h') {
+            margin-bottom: 10px;
+        }
+    }
+}
+.profesionales + .referencias {
+    padding-top: 0;
+
+    @include responsive('mobile-v') {
+        background-size: 200%;
+        background-position: bottom center;
+    }
+}

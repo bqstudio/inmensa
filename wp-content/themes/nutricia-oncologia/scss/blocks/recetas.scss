@@ -1,0 +1,151 @@
+.recetas {
+    background-image: url('images/wave.svg');
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 80px 0 120px;
+    margin: 80px 0;
+
+    @include responsive('mobile-h') {
+        margin-bottom: 0;
+        padding: 80px 0 30px;
+    }
+
+    @include responsive('mobile-v') {
+        background-size: 200%;
+    }
+
+    &__content {
+        text-align: center;
+        padding-bottom: 50px;
+
+        @include responsive('mobile-h') {
+            padding-bottom: 30px;
+        }
+    }
+
+    &__icon {
+        img {
+            @include responsive('mobile-c') {
+                width: 80px;
+            }
+        }
+    }
+
+    &__title {
+        color: $white;
+
+        @include responsive('mobile-h') {
+            margin-top: 10px;
+        }
+    }
+
+    &__cont {
+        padding-top: 40px;
+
+        &__item {
+            margin: 0 20px;
+            position: relative;
+            cursor: pointer;
+
+            &__image {
+                width: 100%;
+                padding-top: 100%;
+                border-radius: 20px;
+                overflow: hidden;
+                position: relative;
+            }
+
+            @include responsive('tablet-v'){
+                margin: 0 10px;
+            }
+        }
+
+        &__info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+        }
+
+        &__porcion, &__tiempo, &__dificultad {
+            color: $white;
+            font-size: 16px;
+            margin: 0 10px;
+
+            @include responsive('tablet-v'){
+                font-size: 14px;
+                margin: 0 5px;
+            } 
+        }
+
+        &__bottom {
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+
+            @include responsive('tablet-v'){
+                bottom: 15px;
+                left: 15px;
+            } 
+        }
+        &__title {
+            font-size: 25px;
+            font-weight: 700;
+            color: $white;
+
+            @include responsive('tablet-v'){
+                font-size: 18px;
+            } 
+        }
+
+        &__text {
+            margin-top: 5px;
+            font-size: 14px;
+            color: $white;
+
+            @include responsive('tablet-v'){
+                margin-top: 10px;
+            } 
+            p {
+                color: $white;
+                font-size: 16px;
+                margin-bottom: 0;
+
+                @include responsive('tablet-v'){
+                    font-size: 14px;
+                } 
+            }
+        }
+
+        .slick-arrow {
+            position: absolute;
+            top: -25px;
+            right: 50%;
+            width: 60px;
+            background-image: url('images/arrow-white.svg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: transparent;
+            text-indent: 1000px;
+        }
+
+        .slick-prev {
+            transform: rotate(180deg);
+            margin-right: 20px;
+        }
+
+        .slick-next {
+            transform: translate(80px, 2px);
+        }
+    }
+}
+
+.fortisip_compact + .recetas {
+    margin-bottom: 0;
+    background-color: #f9f6f5;
+    margin: 0;
+}

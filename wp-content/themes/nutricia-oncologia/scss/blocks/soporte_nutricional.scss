@@ -1,0 +1,27 @@
+.soporte_nutricional {
+    background-color: #EDECEC;
+    padding: 90px 0;
+    &__cont {
+        width: 1150px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    &__title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    &__text {
+        font-size: 25px;
+        color: $secondary-color;
+        margin-bottom: 30px;
+        font-weight: 300;
+    }
+    &__image {
+        position: relative;
+        padding-top: 57%;
+    }
+}
+
+.two_column_text + .soporte_nutricional {
+    padding-top: 0;
+}

@@ -1,0 +1,409 @@
+.video-block {
+    @include row();
+    margin-bottom: 30px;
+  
+    .video {
+      @include row();
+  
+      &__cont {
+        @include row();
+        padding-top: 56.2%;
+        position: relative;
+        margin-bottom: 15px;
+  
+        iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  
+  .list_block {
+    @include row();
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 30px;
+  
+
+    @include responsive('mobile-v') {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &__title {
+      margin-bottom: 20px;
+    }
+    &__list {
+      @include row();
+      margin-bottom: 30px;
+      
+      .list_block__title {
+        margin-bottom: 20px !important;
+      }
+    }
+  
+    &__item {
+      @include row();
+      padding-left: 30px;
+      font-weight: 300;
+      line-height: 1.79;
+      letter-spacing: normal;
+      color: #696a6c;
+      position: relative;
+      margin-bottom: 10px;
+  
+      &:before {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        content: '';
+        background: $primary-color;
+      }
+    }
+
+    .news-single__content--image {
+      position: relative;
+      width: 100%;
+      padding-top: 100%;
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    &__cont {
+      width: 100%;
+      position: relative;
+
+      @include responsive('mobile-v') {
+        height: 50vw;
+      }
+      .recetas__cont__porcion, .recetas__cont__tiempo, .recetas__cont__dificultad {
+        color: $primary-color;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+        position: absolute;
+        bottom: 0;
+
+        svg {
+          margin-right: 10px
+        }
+      }
+
+      .recetas__cont__tiempo {
+        margin-left: 5px;
+        margin-top: 20px;
+        bottom: 60px;
+      }
+
+      .recetas__cont__dificultad {
+        bottom: 60px;
+      }
+
+      .title-recetas {
+        .title {
+          font-weight: 400; 
+        }
+      }
+    }
+  }
+  
+  .gallery_block {
+    @include row();
+    margin-bottom: 30px;
+    overflow: hidden;
+  
+    &__carousel {
+      @include row();
+      position: relative;
+  
+      .slick-list {
+        @include row();
+      }
+  
+      .slick-arrow {
+        float: left;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        width: 25px;
+        height: 25px;
+        border: 2px solid $primary-color;
+        border-right: none;
+        border-top: none;
+        z-index: 10;
+        background: none;
+        text-indent: 5000px;
+        transform: rotate(45deg);
+        margin-top: -10px
+      }
+  
+      .slick-next {
+        left: auto;
+        right: 10px;
+        margin-top: -10px;
+        border-right: 2px solid $primary-color;
+        border-left: none;
+        transform: rotate(-45deg);
+      }
+    }
+  
+    &__image {
+      @include row();
+      padding-top: 50%;
+      position: relative;
+    }
+  }
+  
+  .text_block__text {
+  
+    p {
+      @include row();
+      margin-bottom: 20px;
+  
+      strong,
+      b {
+        font-weight: 700;
+      }
+    }
+  
+    ul {
+      @include row();
+      margin-bottom: 20px;
+      list-style: none; 
+  
+      li {
+        @include row();
+        padding-left: 30px;
+        font-weight: 300;
+        line-height: 1.79;
+        letter-spacing: normal;
+        color: #696a6c;
+        position: relative;
+        margin-bottom: 10px;
+  
+        &:before {
+          position: absolute;
+          top: 10px;
+          left: 0;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          content: '';
+          background: $primary-color;
+        }
+      }
+    }
+  }
+  
+  .news-single {
+    padding: 0 0 50px 0;
+  
+    &__top {
+      width: 100%;
+      background: $primary-color;
+      padding: 100px 0;
+      text-align: center;
+  
+      @include responsive('tablet') {
+        padding: 50px 0;
+      }
+    }
+  
+    &__title {
+      width: 100%;
+      font-size: 40px;
+      font-weight: 700;
+      color: #ffffff;
+    }
+  
+    &__image {
+      @include row();
+      margin-bottom: 30px;
+    }
+  
+    &__content {
+      margin-top: 45px;
+  
+      @include responsive('tablet-h') {
+        margin-top: 30px;
+      }
+  
+      .gallery {
+        width: 100%;
+        margin-bottom: 30px;
+        position: relative;
+        padding: 0 40px;
+  
+        &-item {
+          @include row();
+          padding: 10px;
+        }
+  
+        &-icon {
+          @include row();
+          position: relative;
+          padding-top: 60%;
+  
+          a {
+            @include row();
+            @include image-background();
+          }
+        }
+      }
+  
+      .alignleft {
+        float: left;
+        margin-right: 20px;
+      }
+  
+      .alignright {
+        float: right;
+        margin-left: 20px;
+      }
+  
+      p {
+        @include row();
+        margin-bottom: 20px;
+  
+        strong,
+        b {
+          font-weight: 700;
+        }
+      }
+  
+      ul {
+        @include row();
+        margin-bottom: 20px;
+        list-style: none;
+  
+        li {
+          @include row();
+          padding-left: 30px;
+          font-weight: 300;
+          line-height: 1.79;
+          letter-spacing: normal;
+          color: #696a6c;
+          position: relative;
+          margin-bottom: 10px;
+  
+          &:before {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            content: '';
+            background: $primary-color;
+          }
+        }
+      }
+  
+      .container {
+        width: 1060px;
+        max-width: 100%;
+        padding: 0 30px;
+      }
+  
+      h1,h2,h3,h4,h5 {
+        @include row();
+        margin-bottom: 0;
+        font-size: 30px;
+        font-weight: 600;
+        color: $primary-color;
+  
+        @include responsive('tablet-h') {
+          line-height: 1.5;
+        }
+      }
+  
+      h3 {
+        font-weight: 700;
+      }
+  
+      p {
+        float: left;
+        margin-bottom: 30px;
+  
+        img {
+          @include responsive('mobile-h') {
+            width: calc(100% + 72px);
+            max-width: calc(100% + 72px);
+            margin-left: -36px;
+          }
+        }
+      }
+
+      .text_block {
+        @include row();
+
+        &__title {
+          margin-bottom: 20px;
+        }
+
+        &__text {
+          ol {
+            li {
+              margin-left: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .consejo {
+    background: #EFECF1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    
+    strong {
+      color: $white;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      position: relative;
+      padding: 5px;
+      z-index: 2;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $secondary-color;
+        z-index: -1;
+        border-radius: 5px;
+      }
+    }
+
+    p {
+      margin-top: 7px;
+      font-style: italic;
+      color: $secondary-color;
+    }
+  }
+
+  .disclaimer {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    strong {
+      color: $primary-color;
+      font-weight: 700;
+    }
+  }

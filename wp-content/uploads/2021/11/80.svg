@@ -1,0 +1,24 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="545.34" height="544.98" viewBox="0 0 545.34 544.98">
+  <defs>
+    <linearGradient id="linear-gradient" y1="-0.012" x2="1" y2="-0.012" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4f2e83"/>
+      <stop offset="1" stop-color="#4f2e83"/>
+      <stop offset="1" stop-color="#11438b"/>
+    </linearGradient>
+  </defs>
+  <g id="_80" data-name="80">
+    <g id="Folder_3" data-name="Folder 3">
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M.63,272.63C.63,122.22,122.57.28,272.98.28S545.34,122.22,545.34,272.63,423.4,544.98,272.98,544.98.63,423.05.63,272.63Z" fill="#c3c3c3"/>
+      <g id="_Group_" data-name="&lt;Group&gt;">
+        <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Folder_2" data-name="Folder 2">
+      <path id="_Path_2" data-name="&lt;Path&gt;" d="M272.98,272.63l272.36-.27a272.612,272.612,0,0,1-79.82,192.81c-105.67,105.67-279.54,105.71-385.16.09S-25.22,185.77,80.45,80.1a272.914,272.914,0,0,1,303.5-56.24Z" fill="#fff"/>
+      <path id="_Path_3" data-name="&lt;Path&gt;" d="M272.98,440.55c-92.59,0-167.92-75.33-167.92-167.92s75.33-167.92,167.92-167.92S440.9,180.03,440.9,272.63,365.58,440.55,272.98,440.55Z" fill="url(#linear-gradient)"/>
+      <g id="_Group_2" data-name="&lt;Group&gt;" transform="translate(167.071 254.743)">
+        <text id="_80_" data-name="80% " transform="translate(5.929 54.257)" fill="#fff" font-size="100" font-family="Quicksand" font-weight="700"><tspan x="0" y="0">80%</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

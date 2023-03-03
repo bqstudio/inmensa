@@ -1,0 +1,173 @@
+.site-footer {
+    width: 100%;
+    float: left;
+    padding: 46px 0;
+    position: relative;
+    background: #EFECF1;
+
+    .container {
+        width: 1800px;
+    }
+
+    &__cont{
+        display: grid;
+        grid-template-columns: 20% 30% 20% 1fr;
+        grid-gap: 48px;
+        position: relative;
+
+        @include responsive('tablet-v') {
+            grid-gap: 40px;
+        }
+
+        @include responsive('mobile-c') {
+            grid-template-columns: 1fr;
+            padding-bottom: 0;
+        }
+
+
+
+        &--item {
+
+            &__text {
+                width: 300px;
+                max-width: 100%;
+                p {
+                    color: #8C8C8C;
+                    font-size: 18px;
+                    letter-spacing: 1.1px;
+                    line-height: 30px;
+
+                    a {
+                        width: 100%;
+                        float: left;
+                    }
+                }
+
+                @include responsive('mobile-v') {
+                    width: 100%;
+                }
+            }
+            .title {
+                color: #8C8C8C;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: 1.1px;
+                line-height: 30px;
+            }
+
+            .menu-footer-container, .menu-footer-invitados-container{
+                ul {
+                    li {
+                        list-style: none;
+                        margin-bottom: 5px;
+
+                        a {
+                            color: #8C8C8C;
+                            font-size: 18px;
+                            letter-spacing: 1.1px;
+                            line-height: 30px;
+
+                            &:hover {
+                                color: #51308F;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .socials__bar {
+                display: flex;
+                grid-gap: 15px;
+            }
+
+            &:nth-last-child(1) {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+
+                @include responsive('mobile-v') {
+                    position: static;
+                }
+            }
+
+            img {
+                width: 500px;
+                max-width: 100%;
+                @include responsive('mobile-v') {
+                    width: 100%;
+                }
+            }
+
+            .footer-login {
+                display: none;
+                @include responsive('mobile-h') {
+                    display: grid;
+                    padding: 60px 0;
+
+                    .login {
+                        width: 200px;
+                        margin-bottom: 24px;
+                    }
+
+                    .register {
+                        width: 200px;
+                    }
+                }
+
+                .salir {
+                    border-radius: 10px;
+                    background: #A876E6 0% 0% no-repeat padding-box;
+                    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+                    opacity: 1;
+                    padding: 0 20px;
+                    color: white;
+                    transition: all 0.3s ease;
+                    width: 182px;
+                    text-align: center;
+                    line-height: 40px;
+                    font-size: 21px;
+                }
+            }
+        }
+
+        .mobile_disclaimer {
+			display: none;
+		
+			@include responsive('mobile-c') {
+				display: block;
+                width: 306px;
+                max-width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                font-size: 15px;
+                line-height: 16px;
+                letter-spacing: 0.75px;
+                color: #BBBABE;
+			}
+            @include responsive('mobile-v') {
+                width: 100%;
+            }
+		}
+    }
+
+    &__image {
+        position: absolute;
+        bottom: 50px;
+        right: 140px;
+
+        @include responsive('mobile-c') {
+            bottom: 30px;
+            right: auto;
+        }
+
+        img {
+            width: 343px;
+            max-width: 100%;
+            object-fit: cover;
+
+            @include responsive('mobile-v') {
+                width: 100%;
+            }
+        }
+    }
+}

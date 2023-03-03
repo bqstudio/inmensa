@@ -1,0 +1,38 @@
+.fortisip_compact {
+    background-color: #f9f6f5;
+    &__image {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &__text {
+        text-align: center;
+        width: 1012px;
+        margin: 0 auto;
+        max-width: 100%;
+        color: $secondary-color;
+        font-size: 25px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    &__image--big {
+        text-align: center;
+
+        @include responsive('mobile-h') {
+            display: none;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        &--responsive {
+            display: none;
+
+            @include responsive('mobile-h') {
+                display: block;
+            }
+        }
+    }
+}

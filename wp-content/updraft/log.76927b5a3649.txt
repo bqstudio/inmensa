@@ -1,0 +1,228 @@
+0000.003 (0) Opened log file at time: Thu, 02 Mar 2023 05:59:15 +0000 on https://nutriciononcologica.com.ar
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux cp24-ga.privatesystems.net 4.18.0-372.26.1.lve.1.el8.x86_64 #1 SMP Fri Sep 16 14:08:19 EDT 2022 x86_64) MySQL: 10.5.18-MariaDB-cll-lve (max packet size=268435456) WPLANG: es_ES Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 19.4M | 22M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.023 (0) Free space on disk containing Updraft's temporary directory: 562018.5 MB
+0000.030 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.032 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.041 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1677149588, seconds_ago=587167)
+0000.043 (0) Set semaphore last lock (f) time to 2023-03-02 05:59:15
+0000.044 (0) Semaphore lock (f) complete
+0000.047 (0) Backup run: resumption=0, nonce=76927b5a3649, file_nonce=76927b5a3649 begun at=1677736755 (0s ago), job type=backup
+0000.049 (0) Scheduling a resumption (1) after 300 seconds (1677737055) in case this run gets aborted
+0000.070 (0) Checking if we have a zip executable available
+0000.071 (0) Testing: /usr/bin/zip
+0000.076 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.077 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.078 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.078 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.079 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.086 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.087 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.098 (0) Working binary zip found: /usr/bin/zip
+0000.100 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.101 (0) Creation of backups of directories: beginning
+0000.103 (0) No backup of plugins: excluded by user's options
+0000.105 (0) Beginning creation of dump of themes (split every: 400 MB)
+0000.202 (0) Total entities for the zip file: 46 directories, 358 files (0 skipped as non-modified), 11.3 MB
+0000.204 (0) Zip: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.206 (0) Zip: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.207 (0) Zip: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.742 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip.tmp: size is now: 9.30 MB
+0001.747 (0) Creating zip file manifest (backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip.list-temp.tmp)
+0001.751 (0) Successfully created zip file manifest (size: 24133)
+0001.839 (0) Created themes zip (0) - 9573.7 KB in 1.7 s (5591.7 KB/s) (sha1: 3e4319d66d003e8a7d4881e864c815bdc3b94ffc, sha256: 85a48a27bc644ace48930c4fcfa5e750473d7da5e0ade14b85eb2137d3d5a4ae)
+0001.842 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0001.842 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-45d2016e6943631b2f9194bb1d8dc2c3)
+0004.997 (0) Google Drive: quota usage: used=59905.4 MB, total=236544 MB, available=176638.6 MB
+0004.998 (0) Google Drive: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip: Attempting to upload to Google Drive (into folder id: 1ObEB0ZK545kwg3bvUP99pFq52YmW4M72)
+0005.562 (0) Googledrive chunked upload: 10.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.6 / 22)
+0005.839 (0) Googledrive chunked upload: 32.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.6 / 22)
+0006.211 (0) Googledrive chunked upload: 74.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.6 / 22)
+0008.420 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0008.423 (0) Google Drive: OK: Archive backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip uploaded in 3.42 seconds
+0008.424 (0) Recording as successfully uploaded: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip
+0008.426 (0) Deleting local file: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip: OK
+0008.430 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0008.431 (0) Looking for candidates to backup in: /home/oncologia/public_html/wp-content/uploads
+0008.432 (0) finding files: 2021: adding to list (1)
+0008.433 (0) finding files: complianz: adding to list (2)
+0008.434 (0) finding files: 2022: adding to list (3)
+0008.434 (0) finding files: ithemes-security: adding to list (4)
+0008.435 (0) finding files: gravity_forms: adding to list (5)
+0008.436 (0) finding files: 2023: adding to list (6)
+0008.436 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0008.530 (0) Total entities for the zip file: 33 directories, 545 files (0 skipped as non-modified), 656.7 MB
+0008.532 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (35.1 MB, 545 files batched, 20 (20) added so far); re-opening (prior size: 0 KB)
+0014.727 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip.tmp: size is now: 35.10 MB
+0014.730 (0) A useful amount of data was added after this amount of zip processing: 7.1 s (normalised: 5.1 s, rate: 5031.6 KB/s)
+0014.732 (0) Performance is good - will increase the amount of data we attempt to batch (time=7.1458909511566, normalised_time=5.0878588147837, max_time=14.727729082108, data points known=1, old_max_bytes=26214400, new_max_bytes=45529397)
+0014.734 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.4 MB added on this batch (113.8 MB, 545 files batched, 39 (59) added so far); re-opening (prior size: 35957.5 KB)
+0040.962 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip.tmp: size is now: 148.80 MB
+0040.965 (0) A useful amount of data was added after this amount of zip processing: 26.4 s (normalised: 10.1 s, rate: 4415.4 KB/s)
+0040.967 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.4 MB added on this batch (87.6 MB, 545 files batched, 1 (60) added so far); re-opening (prior size: 152390.3 KB)
+0073.359 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip.tmp: size is now: 236.40 MB
+0073.364 (0) A useful amount of data was added after this amount of zip processing: 32.8 s (normalised: 16.2 s, rate: 2736.3 KB/s)
+0073.370 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.4 MB added on this batch (61.8 MB, 545 files batched, 3 (63) added so far); re-opening (prior size: 242086.6 KB)
+0109.290 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip.tmp: size is now: 298.20 MB
+0109.292 (0) A useful amount of data was added after this amount of zip processing: 36.7 s (normalised: 25.8 s, rate: 1724.4 KB/s)
+0109.294 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.4 MB added on this batch (57.2 MB, 545 files batched, 3 (66) added so far); re-opening (prior size: 305388.4 KB)
+0150.505 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip.tmp: size is now: 355.50 MB
+0150.508 (0) A useful amount of data was added after this amount of zip processing: 41.9 s (normalised: 31.8 s, rate: 1397.6 KB/s)
+0150.510 (0) Zip: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip.tmp: 100 files added (on-disk size: 363981.7 KB)
+0150.512 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.4 MB added on this batch (54.2 MB, 545 files batched, 84 (150) added so far); re-opening (prior size: 363981.7 KB)
+0196.832 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip.tmp: size is now: 409.30 MB
+0196.834 (0) A useful amount of data was added after this amount of zip processing: 47.3 s (normalised: 37.8 s, rate: 1175.4 KB/s)
+0196.840 (0) Zip size is at/near split limit (409.3 MB / 400 MB) - bumping index (from: 0)
+0200.609 (0) Creating zip file manifest (backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip.list-temp.tmp)
+0200.610 (0) Successfully created zip file manifest (size: 10685)
+0200.612 (0) Created uploads zip (0) - 419124.7 KB in 188.4 s (2224.8 KB/s) (checksums: sha1: b15e9e3058f30e62ea6efeb429c80eca78e6941a, sha256: 60b1fedfb25fa26080b3588951e9d3174e35bfa8aa6c7d33f4e8608b1248dadc)
+0200.617 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0200.618 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-45d2016e6943631b2f9194bb1d8dc2c3)
+0200.867 (0) Google Drive: quota usage: used=59914.7 MB, total=236544 MB, available=176629.3 MB
+0200.868 (0) Google Drive: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip: Attempting to upload to Google Drive (into folder id: 1ObEB0ZK545kwg3bvUP99pFq52YmW4M72)
+0201.385 (0) Googledrive chunked upload: 0.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.8 / 22)
+0201.705 (0) Googledrive chunked upload: 0.7 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.8 / 22)
+0202.089 (0) Googledrive chunked upload: 1.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.8 / 22)
+0202.629 (0) Googledrive chunked upload: 3.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.8 / 22)
+0203.349 (0) Googledrive chunked upload: 7.6 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 20.8 / 22)
+0204.257 (0) Googledrive chunked upload: 15.4 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 20.8 / 22)
+0206.120 (0) Googledrive chunked upload: 31 % uploaded (133169152)
+0208.581 (0) Googledrive chunked upload: 46.7 % uploaded (200278016)
+0210.025 (0) Googledrive chunked upload: 62.3 % uploaded (267386880)
+0212.409 (0) Googledrive chunked upload: 77.9 % uploaded (334495744)
+0214.521 (0) Googledrive chunked upload: 93.6 % uploaded (401604608)
+0217.359 (0) Googledrive chunked upload: 100 % uploaded (401604608)
+0217.363 (0) Google Drive: OK: Archive backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip uploaded in 16.49 seconds
+0217.364 (0) Recording as successfully uploaded: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip
+0217.392 (0) Deleting local file: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip: OK
+0217.395 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (18 MB, 1 (151) files added so far); re-opening (prior size: 0 KB)
+0219.991 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip.tmp: size is now: 18.00 MB
+0219.994 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.4 MB added on this batch (85.3 MB, 545 files batched, 8 (159) added so far); re-opening (prior size: 18439 KB)
+0238.823 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip.tmp: size is now: 103.30 MB
+0238.825 (0) A useful amount of data was added after this amount of zip processing: 19.2 s (normalised: 9.8 s, rate: 4541.1 KB/s)
+0238.827 (0) Zip: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip.tmp: 200 files added (on-disk size: 105810.6 KB)
+0238.828 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 43.4 MB added on this batch (43.5 MB, 545 files batched, 101 (260) added so far); re-opening (prior size: 105810.6 KB)
+0257.763 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip.tmp: size is now: 145.90 MB
+0257.766 (0) The scheduled resumption is within 45 seconds - will reschedule
+0257.768 (0) Rescheduling resumption 1: moving to 345 seconds from now (1677737358)
+0257.770 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0257.771 (0) A useful amount of data was added after this amount of zip processing: 19.2 s (normalised: 19.2 s, rate: 2320.1 KB/s)
+0257.773 (0) Performance is good - will increase the amount of data we attempt to batch (time=19.187335014343, normalised_time=19.16364173861, max_time=257.76906299591, data points known=1, old_max_bytes=45529397, new_max_bytes=209715200)
+0257.775 (0) Zip: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip.tmp: 300 files added (on-disk size: 149420.6 KB)
+0257.777 (0) Zip: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip.tmp: 400 files added (on-disk size: 149420.6 KB)
+0257.779 (0) Zip: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip.tmp: 500 files added (on-disk size: 149420.6 KB)
+0291.917 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip.tmp: size is now: 241.10 MB
+0291.922 (0) Creating zip file manifest (backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip.list-temp.tmp)
+0291.924 (0) Successfully created zip file manifest (size: 27993)
+0293.856 (0) Created uploads zip (1) - 246899.7 KB in 93.2 s (2648 KB/s) (sha1: b9b60910f711ad678939dd6966c7cf76eaf96877, sha256: 557c72d1b0628a721c6477dba10ca7fce1815527598bae71acb7f1a348f390ba)
+0293.859 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0293.860 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-45d2016e6943631b2f9194bb1d8dc2c3)
+0294.116 (0) Google Drive: quota usage: used=60324 MB, total=236544 MB, available=176220 MB
+0294.117 (0) Google Drive: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip: Attempting to upload to Google Drive (into folder id: 1ObEB0ZK545kwg3bvUP99pFq52YmW4M72)
+0294.668 (0) Googledrive chunked upload: 0.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.6 / 24)
+0294.951 (0) Googledrive chunked upload: 1.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.7 / 24)
+0295.292 (0) Googledrive chunked upload: 2.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.7 / 24)
+0295.737 (0) Googledrive chunked upload: 6.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.7 / 24)
+0296.402 (0) Googledrive chunked upload: 12.9 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 20.7 / 24)
+0297.548 (0) Googledrive chunked upload: 26.1 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 20.7 / 24)
+0299.660 (0) Googledrive chunked upload: 52.7 % uploaded (133169152)
+0301.701 (0) Googledrive chunked upload: 79.2 % uploaded (200278016)
+0303.777 (0) Googledrive chunked upload: 100 % uploaded (200278016)
+0303.780 (0) Google Drive: OK: Archive backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip uploaded in 9.66 seconds
+0303.781 (0) Recording as successfully uploaded: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip
+0303.809 (0) Deleting local file: backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip: OK
+0303.813 (0) No backup of others: excluded by user's options
+0303.817 (0) Saving backup status to database (elements: 5)
+0303.822 (0) No database backup (wp) - not part of this run
+0303.826 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-themes.zip: themes: This file has already been successfully uploaded
+0303.826 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads.zip: uploads: This file has already been successfully uploaded
+0303.827 (0) backup_2023-03-02-0259_Nutricia_para_Pacientes_Oncolg_76927b5a3649-uploads2.zip: uploads: This file has already been successfully uploaded
+0303.828 (0) Saving backup history. Total backup size: 659.8 MB
+0303.832 (0) Resume backup (76927b5a3649, 0): finish run
+0303.835 (0) There were no more files that needed uploading
+0303.837 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=50
+0303.838 (0) Number of backup sets in history: 20; groups (db): 1
+0303.839 (0) Examining (for databases) backup set with group_id=0, nonce=76927b5a3649, datestamp=1677736755 (Mar 02 2023 05:59:15)
+0303.840 (0) Examining (for databases) backup set with group_id=0, nonce=4fde465b4c92, datestamp=1677648591 (Mar 01 2023 05:29:51)
+0303.840 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.841 (0) Examining (for databases) backup set with group_id=0, nonce=7214f0deee11, datestamp=1677561788 (Feb 28 2023 05:23:08)
+0303.841 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.841 (0) Examining (for databases) backup set with group_id=0, nonce=74f3eae5fc36, datestamp=1677485580 (Feb 27 2023 08:13:00)
+0303.841 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.841 (0) Examining (for databases) backup set with group_id=0, nonce=91ffab7f160c, datestamp=1677391319 (Feb 26 2023 06:01:59)
+0303.841 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.841 (0) Examining (for databases) backup set with group_id=0, nonce=ccbc09ea39ef, datestamp=1677307118 (Feb 25 2023 06:38:38)
+0303.841 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.841 (0) Examining (for databases) backup set with group_id=0, nonce=425ab4c4b783, datestamp=1677216531 (Feb 24 2023 05:28:51)
+0303.841 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.841 (0) Examining (for databases) backup set with group_id=0, nonce=d64590e2cd8c, datestamp=1677151878 (Feb 23 2023 11:31:18)
+0303.841 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.841 (0) Examining (for databases) backup set with group_id=0, nonce=38511f107240, datestamp=1677149650 (Feb 23 2023 10:54:10)
+0303.841 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=fceea7102ba5, datestamp=1677149587 (Feb 23 2023 10:53:07)
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=1d6cd609e56b, datestamp=1677043715 (Feb 22 2023 05:28:35)
+0303.842 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=5564c255c39e, datestamp=1676960728 (Feb 21 2023 06:25:28)
+0303.842 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=51d3574fd3c4, datestamp=1676879465 (Feb 20 2023 07:51:05)
+0303.842 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=602857bc2bfe, datestamp=1676783895 (Feb 19 2023 05:18:15)
+0303.842 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=7382127722d1, datestamp=1676700119 (Feb 18 2023 06:01:59)
+0303.842 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=019b42dd7445, datestamp=1676611135 (Feb 17 2023 05:18:55)
+0303.842 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=342b5cf22695, datestamp=1676532986 (Feb 16 2023 07:36:26)
+0303.842 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=82b3204487b0, datestamp=1676532682 (Feb 16 2023 07:31:22)
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=48ff5e01cc26, datestamp=1676492208 (Feb 15 2023 20:16:48)
+0303.842 (0) Examining (for databases) backup set with group_id=0, nonce=c8acf4c77356, datestamp=1676492168 (Feb 15 2023 20:16:08)
+0303.842 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.842 (0) Number of backup sets in history: 20; groups (files): 1
+0303.843 (0) Examining (for files) backup set with nonce=76927b5a3649, datestamp=1677736755 (Mar 02 2023 05:59:15)
+0303.843 (0) This backup set is the backup set just made, so will not be deleted.
+0303.844 (0) This backup set is the backup set just made, so will not be deleted.
+0303.844 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0303.845 (0) Examining (for files) backup set with nonce=4fde465b4c92, datestamp=1677648591 (Mar 01 2023 05:29:51)
+0303.845 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.846 (0) Examining (for files) backup set with nonce=7214f0deee11, datestamp=1677561788 (Feb 28 2023 05:23:08)
+0303.846 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.846 (0) Examining (for files) backup set with nonce=74f3eae5fc36, datestamp=1677485580 (Feb 27 2023 08:13:00)
+0303.846 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.846 (0) Examining (for files) backup set with nonce=91ffab7f160c, datestamp=1677391319 (Feb 26 2023 06:01:59)
+0303.846 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.846 (0) Examining (for files) backup set with nonce=ccbc09ea39ef, datestamp=1677307118 (Feb 25 2023 06:38:38)
+0303.846 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.846 (0) Examining (for files) backup set with nonce=425ab4c4b783, datestamp=1677216531 (Feb 24 2023 05:28:51)
+0303.846 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.846 (0) Examining (for files) backup set with nonce=d64590e2cd8c, datestamp=1677151878 (Feb 23 2023 11:31:18)
+0303.846 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.846 (0) Examining (for files) backup set with nonce=38511f107240, datestamp=1677149650 (Feb 23 2023 10:54:10)
+0303.846 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.846 (0) Examining (for files) backup set with nonce=fceea7102ba5, datestamp=1677149587 (Feb 23 2023 10:53:07)
+0303.846 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0303.847 (0) Examining (for files) backup set with nonce=1d6cd609e56b, datestamp=1677043715 (Feb 22 2023 05:28:35)
+0303.847 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.848 (0) Examining (for files) backup set with nonce=5564c255c39e, datestamp=1676960728 (Feb 21 2023 06:25:28)
+0303.848 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.848 (0) Examining (for files) backup set with nonce=51d3574fd3c4, datestamp=1676879465 (Feb 20 2023 07:51:05)
+0303.848 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.848 (0) Examining (for files) backup set with nonce=602857bc2bfe, datestamp=1676783895 (Feb 19 2023 05:18:15)
+0303.848 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.848 (0) Examining (for files) backup set with nonce=7382127722d1, datestamp=1676700119 (Feb 18 2023 06:01:59)
+0303.848 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.848 (0) Examining (for files) backup set with nonce=019b42dd7445, datestamp=1676611135 (Feb 17 2023 05:18:55)
+0303.848 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.848 (0) Examining (for files) backup set with nonce=342b5cf22695, datestamp=1676532986 (Feb 16 2023 07:36:26)
+0303.848 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.848 (0) Examining (for files) backup set with nonce=82b3204487b0, datestamp=1676532682 (Feb 16 2023 07:31:22)
+0303.848 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0303.849 (0) Examining (for files) backup set with nonce=48ff5e01cc26, datestamp=1676492208 (Feb 15 2023 20:16:48)
+0303.849 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0303.849 (0) Examining (for files) backup set with nonce=c8acf4c77356, datestamp=1676492168 (Feb 15 2023 20:16:08)
+0303.849 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0303.850 (0) Retain: saving new backup history (sets now: 20) and finishing retain operation
+0303.854 (0) Decremented the semaphore (f) by 1
+0303.855 (0) Semaphore (f) unlocked
+0303.856 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0303.860 (0) No email will/can be sent - the user has not configured an email address.
+0303.860 (0) The backup apparently succeeded and is now complete

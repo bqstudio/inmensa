@@ -1,0 +1,324 @@
+.sabias_que, .tres_columnas {
+    background-color: #EFECF1;
+    padding: 80px 0;
+    position: relative;
+
+    @include responsive('mobile-h') {
+        padding: 40px 0;
+    }
+
+    .container {
+        @include responsive('mobile-v') {
+            padding: 0 18px;
+        }
+    }
+
+    &--title {
+        text-align: center;
+        color: #4C2F92;
+        padding-bottom: 50px;
+        //width: 700px;
+        max-width: 100%;
+        margin: 0 auto;
+        line-height: 70px;
+
+        @include responsive('mobile-v') {
+            font-size: 30px;
+            //width: 295px;
+            max-width: 100%;
+        }
+    }
+
+    &__cont {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 100px;
+
+        @include responsive('container') {
+            grid-gap: 40px;
+        }
+
+        @include responsive('tablet-v') {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        @include responsive('mobile-c') {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @include responsive('mobile-v') {
+            width: calc(100% + 50px);
+            margin-left:-25px;
+        }
+
+        &--item {
+            background: #A876E6;
+            border-radius: 20px;
+            text-align: center;
+            padding: 40px 25px;
+
+            @include responsive('mobile-v') {
+                padding: 25px 0;
+                border-radius: 0;
+            }
+
+            &:nth-child(1) {
+                .sabias_que__cont--img img {
+                    //height: 240px;
+                }
+            }
+        }
+
+        &--img {
+            margin-bottom: 42px;
+            height: 240px;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 100%;
+                height: 189px;
+                object-fit: contain;
+
+                @include responsive('mobile-h') {
+                    height: 154px;
+                }
+            }
+        }
+
+        &--text {
+
+            @include responsive('mobile-h') {
+                margin-top: 20px;
+                padding: 0 10px;
+            }
+
+            p {
+                color: $white;
+                font-size: 22px;
+                line-height: 1.4;
+                letter-spacing: 1.1px;
+
+                @include responsive('mobile-h') {
+                    font-size: 22px;
+                }
+
+                strong {
+                    font-size: 36px;
+                    color: #4C2F92;
+                    letter-spacing: 0.36px;
+                    line-height: 34px;
+
+                    @include responsive('mobile-h') {
+                        font-size: 30px;
+                    }
+                }
+
+                
+            }    
+        }
+    }
+}
+
+.tres_columnas  {
+
+    @include responsive('mobile-h') {
+        padding: 40px 0 100px;
+    }
+
+    &--title {
+        font-size: 55px;
+        line-height: 70px;
+
+        @include responsive('container') {
+            font-size: 36px;
+         }
+ 
+         @include responsive('mobile-h') {
+             font-size: 30px;
+             line-height: 30px;
+             //width: 372px;
+             max-width: 100%;
+
+             br {
+                 display: none;
+             }
+         }
+    }
+    &__cont {
+
+        @include responsive('container') {
+            grid-gap: 40px;
+        }
+
+        @include responsive('desktop-s') {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include responsive('mobile-c') {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+
+        &--item {
+            position: relative;
+            padding: 0;          
+        }
+
+        &__text {
+            max-height: 340px;
+            overflow: hidden;
+
+            @include responsive('container') {
+                font-size: 18px
+            }
+        }
+        &--title {
+            font-size: 36px;
+            color: #4C2F92;
+            letter-spacing: 0.36px;
+            line-height: 34px;
+            font-weight: 700;
+            height: 120px;
+
+            @include responsive('container') {
+                font-size: 30px;
+                height: 100px;
+                line-height: 30px;
+            }
+            @include responsive('mobile-v') {
+                height: auto;
+            }
+        }
+
+        &--informacion {
+            letter-spacing: 0.75px;
+            line-height: 16px;
+            text-align: center;
+            font-size: 15px;
+            color: #BBBABE;
+            width: 100%;
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 0 20px;
+
+            @include responsive('mobile-c') {
+                bottom: 0;
+            }
+        }
+
+        &--text-atras {
+
+            p {
+                color: $white;
+                a {
+                    color: #4C2F92 !important;
+                }
+            }
+
+            ul {
+                li {
+                    color: $white;
+                    margin-bottom: 10px;
+                    line-height: 1;
+                    margin-left: 60px;
+                    text-align: left;
+                    font-size: 22px;
+                }
+            }
+        }
+
+            p {
+                .toggle {
+                    position: absolute;
+                    bottom: 30px;
+                    right: 45px;
+                    color: $white;  
+                    border:0;
+                    appearance: none;
+                    background-color: transparent;
+                }
+            }
+    }
+
+    .flip-card {
+        background-color: transparent;
+        height: 600px;
+        perspective: 1000px; /* Remove this if you don't want the 3D effect */
+      }
+      
+      /* This container is needed to position the front and back side */
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      /* Do an horizontal flip when you move the mouse over the flip box container */
+      @include responsive-min('tablet-h') {
+        .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+        }
+      }
+      .flip-card.js-open .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+     
+      
+      /* Position the front and back side */
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+        cursor: pointer;
+      }
+
+      .flip-card-back {
+        padding: 56px 20px;
+        background-color: #89858E !important;
+        border-radius: 20px;
+
+        @include responsive('mobile-v') {
+            border-radius: 0;
+        }
+      }
+
+      .flip-card-front {
+        padding: 80px 32px;
+
+        @include responsive('mobile-h') {
+            padding: 40px 12px;
+        }
+      }
+    
+      /* Style the front side (fallback if image is missing) */
+      .flip-card-front {
+        background-color: transparent;
+        color: black;
+      }
+      
+      /* Style the back side */
+      .flip-card-back {
+        background-color:transparent;
+        color: white;
+        transform: rotateY(180deg);
+        display: block;
+
+        .tres_columnas__cont--text-atras {
+            max-height: 465px;
+            overflow: hidden;
+            p {
+                font-size: 22px;
+                letter-spacing: 1.1px;
+                line-height: 30px;
+            }
+        }
+      }
+}

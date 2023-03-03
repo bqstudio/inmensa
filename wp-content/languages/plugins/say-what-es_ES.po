@@ -1,0 +1,103 @@
+# Translation of Plugins - Say what? - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Say what? - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-24 18:44:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Say what? - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "Ademti Software"
+msgstr "Ademti Software"
+
+#: html/say-what-admin-addedit.php:5
+msgid "Fill in the details of the original translatable string, the string's text domain, and the string you would like to use instead. For more information check out the <a href='https://plugins.leewillis.co.uk/doc_post/adding-string-replacement/' target='_blank' rel='noopener noreferrer'>getting started guide</a>."
+msgstr "Completa los detalles de la cadena de la traducción original, el dominio del texto de la cadena y la cadena que te gustaría usar en su lugar. Para más información, consulta la <a href='https://plugins.leewillis.co.uk/doc_post/adding-string-replacement/' target='_blank' rel='noopener noreferrer'>guía de primeros pasos</a>."
+
+#. Author URI of the plugin
+msgid "https://plugins.leewillis.co.uk/"
+msgstr "https://plugins.leewillis.co.uk/"
+
+#. Description of the plugin
+msgid "An easy-to-use plugin that allows you to alter strings on your site without editing WordPress core, or plugin code"
+msgstr "Un plugin fácil de usar que te permite modificar las cadenas en tu sitio sin editar el núcleo de WordPress o el código del plugin."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/leewillis77/say-what"
+msgstr "https://github.com/leewillis77/say-what"
+
+#. Plugin Name of the plugin
+msgid "Say What?"
+msgstr "Say What?"
+
+#: say-what-list-table.class.php:140
+msgid "Delete"
+msgstr "Borrar"
+
+#: say-what-list-table.class.php:127
+msgid "Edit"
+msgstr "Editar"
+
+#: say-what-list-table.class.php:26
+msgid "No string replacements configured yet."
+msgstr "Aún no hay configurado ningún reemplazo de cadenas."
+
+#: say-what-admin.php:110 say-what-admin.php:117 say-what-admin.php:129
+#: say-what-admin.php:172
+msgid "Did you really mean to do that? Please go back and try again."
+msgstr "¿Realmente quieres hacer eso? Por favor, vuelve atrás e inténtalo de nuevo."
+
+#: say-what-admin.php:45
+msgid "Settings"
+msgstr "Ajustes"
+
+#: html/say-what-admin-list.php:4
+msgid "Add New"
+msgstr "Añadir nueva"
+
+#: html/say-what-admin-delete.php:7
+msgid "No"
+msgstr "No"
+
+#: html/say-what-admin-delete.php:7
+msgid "Yes"
+msgstr "Sí"
+
+#: html/say-what-admin-delete.php:5
+msgid "Are you sure you want to delete the replacement string for &quot;%s&quot;?"
+msgstr "¿Seguro que quieres borrar la cadena de reemplazo para «%s»?"
+
+#: html/say-what-admin-addedit.php:29
+msgid "Add"
+msgstr "Añadir"
+
+#: html/say-what-admin-addedit.php:29
+msgid "Update"
+msgstr "Actualizar "
+
+#: say-what-list-table.class.php:40 html/say-what-admin-addedit.php:25
+msgid "Replacement string"
+msgstr "Cadena de reemplazo"
+
+#: say-what-list-table.class.php:39 html/say-what-admin-addedit.php:21
+msgid "Text context"
+msgstr "Contexto del texto"
+
+#: say-what-list-table.class.php:38 html/say-what-admin-addedit.php:17
+msgid "Text domain"
+msgstr "Dominio del texto"
+
+#: say-what-list-table.class.php:37 html/say-what-admin-addedit.php:13
+msgid "Original string"
+msgstr "Cadena original"
+
+#: html/say-what-admin-delete.php:3 html/say-what-admin-list.php:3
+#: html/say-what-admin-addedit.php:3 say-what-admin.php:57
+#: say-what-admin.php:58
+msgid "Text changes"
+msgstr "Cambios del texto"

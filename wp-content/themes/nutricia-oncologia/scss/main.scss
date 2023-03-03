@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+/*
+Theme Name: oncologia
+Text Domain: twentysixteen
+*/
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Base stuff
+@import
+  'base/typography',
+  'base/base';
+
+// 3. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
+
+// 4. Components
+@import
+  'components/button',
+  'components/animations',
+  'components/forms';
+
+// 5. Blocks
+@import 
+'blocks/referencias',
+'blocks/profesionales',
+'blocks/faq',
+'blocks/hero_image',
+'blocks/hero_home',
+'blocks/opiniones',
+'blocks/tips_de_uso',
+'blocks/fortisip_compact',
+'blocks/newsletter',
+'blocks/two_column_text',
+'blocks/beneficios',
+'blocks/items',
+'blocks/text',
+'blocks/sabias_que',
+'blocks/image_text',
+'blocks/video';
+
+// 6 text-page
+@import
+'text-page/text-page',
+'text-page/forms';

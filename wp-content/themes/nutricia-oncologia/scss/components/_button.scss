@@ -1,0 +1,7 @@
+.button {
+  @include button();
+
+  @include responsive('mobile-v') {
+    font-size: 18px;
+  }
+}

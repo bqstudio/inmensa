@@ -1,0 +1,73 @@
+.two_column_text {
+    padding: 90px 0;
+    background-color: #EDECEC;
+
+    &:nth-child(odd) {
+        background-color: #fff;
+    }
+    &:nth-child(even) {
+        background-color: #EDECEC;
+    }
+
+    @include responsive('desktop-h') {
+        padding: 40px 0;
+    }
+
+    &__cont {
+        justify-content: center;
+        display: flex;
+        grid-gap: 60px;
+        
+        @include responsive('desktop-h') {
+            display: block;
+        }
+
+        &--left {
+            width: 394px;
+            max-width: 100%;
+            text-align: right;
+
+            @include responsive('desktop-h') {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    &__title {
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        font-size: 18px;
+        color: $secondary-color;
+        font-weight: 400;
+    }
+
+    &__text {
+        width: 643px;
+        max-width: 100%;
+        padding: 20px;
+        box-shadow: rgb(0 0 0 / 30%) 0 0 20px;
+        border-radius: 30px;
+        background-color: #fff;
+        
+
+        @include responsive('desktop-h') {
+           width: 100%;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        ul {
+            list-style-position: inside;
+            li {
+                padding-left:20px;
+            }
+            
+        }
+    }
+}

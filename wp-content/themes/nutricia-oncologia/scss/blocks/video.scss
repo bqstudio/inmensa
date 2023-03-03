@@ -1,0 +1,148 @@
+.video {
+    position: relative;
+    padding: 80px 0 ;
+    background-color: #f9f6f5;
+    z-index: 1;
+
+    &:nth-child(1) {
+			padding-top: 147px;
+      margin-top: 0 !important;
+			@include responsive('mobile-h') {
+				padding-top: 70px;
+        margin-bottom: 0;
+			  }
+		}
+    .container {
+      max-width: 1200px;
+      width:100%;
+
+      @include responsive('desktop-s') {
+        max-width: 900px;
+      }
+    }
+
+    &__cont {
+      display: block;
+      width: 100%;
+      padding-top: 56%;
+      position: relative;
+      box-shadow: rgba(0,0,0,.4) 0 0 20px;
+
+      video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+     }
+    }
+
+    .cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+   }
+    
+    .play-button {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translateY(-50%) translateX(50%);
+      z-index: 2;
+      
+      @include responsive('mobile-v') {
+        width: 50px;
+        height: 50px;
+      }
+      
+      @include responsive('small') {
+        top: 35%;
+        transform: translateX(-50%) scale(.5) translateY(-50%);
+      }
+    }
+} 
+
+.home {
+  .video{
+    margin-bottom: -80px;
+    margin: 0 0 80px 0;
+    .play-button {
+      top: auto;
+      bottom: 0;
+      right: 0;
+      transform: translateY(-50%) translateX(-50%);
+    }
+  } 
+}
+
+    
+.controls {
+  display: none;
+}
+
+.video-controls {
+  position: absolute;
+  top:30px;
+  right:30px;
+  color: #ffff;
+  font-size: 12px; 
+  text-transform: uppercase; 
+  font-weight: 700; 
+  padding: 5px 10px 4px; 
+  cursor: pointer;
+
+  @include responsive('small') {
+    font-size: 10px;
+    font-weight: 600;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  &:hover {
+    background: #000;
+  }
+  &.pause {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:rgba(0,0,0,.1);
+    background-image: url(images/pause-solid.svg);
+    @include cover();
+    background-size: 80%;
+    font-size: 0;
+    z-index: 2;
+
+    &:hover {
+      background-color:rgba(0,0,0,.1);
+    }
+
+    @include responsive('mobile-v') {
+      height: 50px;
+      width: 50px;
+    }
+  }
+}
+
+.play-button:hover {
+.stroke-solid {
+  opacity: 1;
+  stroke-dashoffset: 300;
+}
+
+}
+
+.home .video {
+    margin-bottom: -70px;
+    z-index: 3;
+
+    @include responsive('tablet-h') {
+      margin-bottom: 0;
+    }
+}

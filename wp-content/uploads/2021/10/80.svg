@@ -1,0 +1,37 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 546 545" width="546" height="545">
+	<title>Capa 1</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="105.062" y1="100.708" x2="440.903" y2="100.708">
+			<stop offset="1" stop-color="#2b4288"  />
+			<stop offset="1" stop-color="#11438b"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #c3c3c3 } 
+		.shp1 { fill: #ffffff } 
+		.shp2 { fill: url(#grd1) } 
+		.txt3 { font-size: 46px;line-height: 86px;fill: #ffffff;font-weight: 700;font-family: "Montserrat-Bold", "Montserrat" } 
+	</style>
+	<g id="Capa 1">
+		<g id="80">
+			<g id="Folder 3">
+				<path id="&lt;Path&gt;" class="shp0" d="M0.63 272.63C0.63 122.22 122.57 0.28 272.98 0.28C423.4 0.28 545.34 122.22 545.34 272.63C545.34 423.05 423.4 544.98 272.98 544.98C122.57 544.98 0.63 423.05 0.63 272.63Z" />
+				<g id="&lt;Group&gt;">
+					<path id="&lt;Compound Path&gt;" class="shp1" d="" />
+				</g>
+			</g>
+			<g id="Folder 2">
+				<path id="&lt;Path&gt;" class="shp1" d="M272.98 272.63L545.34 272.36C545.37 344.64 516.64 414.05 465.52 465.17C359.85 570.84 185.98 570.88 80.36 465.26C-25.26 359.64 -25.22 185.77 80.45 80.1C160.06 0.49 281.16 -21.95 383.95 23.86L272.98 272.63Z" />
+				<path id="&lt;Path&gt;" class="shp2" d="M272.98 440.55C180.39 440.55 105.06 365.22 105.06 272.63C105.06 180.03 180.39 104.71 272.98 104.71C365.58 104.71 440.9 180.03 440.9 272.63C440.9 365.22 365.58 440.55 272.98 440.55Z" />
+				<g id="&lt;Group&gt;">
+					<text id="80%
+" style="transform: matrix(2,0,0,2,200.69,299.213)" >
+						<tspan x="0" y="0" class="txt3">80</tspan><tspan  y="0" class="txt3">%
+</tspan>
+					</text>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

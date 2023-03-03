@@ -1,0 +1,181 @@
+.hero-home {
+    position: relative;
+    .container {
+        width: 1050px;
+        max-width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -75%);
+        float: left;
+        padding: 0 250px 0 0;
+
+        @include responsive('desktop-h') {
+            width: auto;
+        }
+
+        @include responsive('tablet-v') {
+            width: 100%;
+            padding: 0 40px;
+            transform: translate(-50%, -130px);
+        }
+    }
+    &__image {
+        position: relative;
+        img {
+            width: 100%;
+
+            @include responsive('tablet-v') {
+                min-height: 92vw;
+                object-fit: cover;
+                width: calc(100% + 130px);
+                margin-left: -130px;
+                max-width: none;
+            }
+
+            @include responsive('mobile-h') {
+                display: none;
+            }
+        }
+       
+
+        &__title {
+            color: #4C2F92;
+            font-size: 55px;
+            margin-bottom: 10px;
+
+            @include responsive('container') {
+				font-size: 40px;
+			}
+
+            @include responsive('mobile-h') {
+				font-size: 30px;
+			}
+        }
+
+        &__text {
+            color: #293896;
+            font-size: 36px;
+            letter-spacing: 0.36px;
+            font-weight: 600;
+
+            @include responsive('container') {
+                font-size: 22px;
+			}
+
+            @include responsive('mobile-h') {
+				font-size: 18px;
+			}
+        }
+    }
+
+    &__login {
+        width: 100%;
+        margin-top: 30px;
+
+        a {
+            display: inline-block;
+            color: white;
+            border: 1px solid #4C2F92;
+            background: #A876E6 0% 0% no-repeat padding-box;
+            box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+            opacity: 1;
+            font-weight: 700;
+            line-height: 50px;
+            padding: 0 30px;
+            margin-right: 20px;
+            border-radius: 10px;
+
+            &:hover {
+                background-color: transparent;
+                box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+                border: 1px solid #4C2F92;
+                color:#4C2F92;
+            }
+
+            @include responsive('container') {
+                font-size: 18px;
+                margin-right: 20px;
+			}
+
+            @include responsive('mobile-h') {
+				font-size: 14px;
+                line-height: 30px;
+                margin-bottom:4px;
+			}
+
+            &:nth-child(2),
+            &.register {
+                background-color: transparent;
+                box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+                border: 1px solid #4C2F92;
+                color:#4C2F92;
+                opacity: 1;
+
+                &:hover {
+                    background: #A876E6 0% 0% no-repeat padding-box;
+                    box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #00000029;
+                    border: 1px solid #4C2F92;
+                    color:white;
+                    opacity: 1
+                }
+            }
+        }
+
+
+        .register {
+            
+            &:hover {
+                background:  #4C2F92;
+				color: $white;
+            }
+            @include responsive('container') {
+                font-size: 18px;
+			}
+
+            @include responsive('mobile-h') {
+				font-size: 14px;
+			}
+        }
+    }
+
+    &--responsive {
+        display: none;
+
+        @include responsive('mobile-h') {
+            display: block;
+            padding-top: 100%;
+            position: relative;
+        }
+    }
+}
+
+.login {
+    background: #A876E6;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 1.35px;
+    margin-right: 36px;
+
+    &:hover {
+        color: #A876E6;
+        border: 1px solid #A876E6;
+        background: white;
+    }
+}       
+
+.register  {
+    border: 1px solid #4C2F92;
+    font-size: 27px;
+    background: transparent;
+    color: #4C2F92;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+    &:hover {
+        background:  #4C2F92;
+        color: $white;
+    }
+}
